@@ -4,13 +4,13 @@
 const fruits = [];
 fruits.push("banana", "apple", "peach");
 
-// console.log(fruits.length);
+console.log(fruits.length);
+fruits.length = 100;
 
 
 // // ---------------------------------------------------------
-// fruits[5] = "";
 // console.log(fruits[5]);
-// console.log(Object.keys(fruits));
+// console.log(fruits);
 // console.log(fruits.length);
 
 // // ---------------------------------------------------------
@@ -22,7 +22,3 @@ fruits.push("banana", "apple", "peach");
 
 
 // // ---------------------------------------------------------
-// fruits.length = 2;
-// console.log(Object.keys(fruits));
-// console.log(fruits.length);
-// console.log(fruits);

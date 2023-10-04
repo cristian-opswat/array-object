@@ -6,16 +6,16 @@ const array = [0, obj, [10] , undefined, 'string', 6];
 
 const map = array.map((x) => x);
 
-// console.log("Array: ", array);
-// console.log("Map: ", map);
+console.log("Array: ", array);
+console.log("Map: ", map);
 
-// obj.fruit = 'banana';
-// arr[0]= '1';
-// array[3] = [20]
+obj.fruit = 'banana';
+arr[0]= '1';
+array[3] = [20]
 
-// console.log('\n');
-// console.log("Array: ", array);
-// console.log("Map: ", map);
+console.log('\n');
+console.log("Array: ", array);
+console.log("Map: ", map);
 
 // ---------------------------------------------------------
 

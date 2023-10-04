@@ -10,6 +10,7 @@ console.log(fruits);
 // const fruits = ['apple', 'banana', 'cherry'];
 // const removedFruit = fruits.pop();
 // console.log(removedFruit); 
+// console.log(fruits); 
 
 // // shift(): Removes the first element from an array and returns that element.
 
@@ -22,6 +23,7 @@ console.log(fruits);
 // const fruits = ['banana', 'cherry'];
 // const newLength = fruits.unshift('apple', 'date');
 // console.log(fruits);
+// console.log(newLength);
 
 // // concat(): Combines two or more arrays and returns a new array without modifying the original arrays.
 
@@ -31,15 +33,19 @@ console.log(fruits);
 // console.log(combinedFruits);
 
 // // slice(): Returns a shallow copy of a portion of an array into a new array selected from start to end (end not included).
-
-// const numbers = [1, 2, 3, 4, 5];
+// const obj = {'asd': 1}
+// const numbers = [1, 2, obj, 4, 5];
 // const slicedNumbers = numbers.slice(1, 4);
+// console.log(slicedNumbers);
+
+// numbers[2] = 2;
+// console.log(numbers);
 // console.log(slicedNumbers);
 
 // // splice(): Changes the contents of an array by removing or replacing existing elements and/or adding new elements.
 
 // const fruits = ['apple', 'banana', 'cherry'];
-// fruits.splice(1, 1, 'date');
+// fruits.splice(1, 2, 'date');
 // console.log(fruits);
 
 // // forEach(): Executes a provided function once for each array element.
